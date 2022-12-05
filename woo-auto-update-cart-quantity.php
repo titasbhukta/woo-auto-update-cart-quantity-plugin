@@ -30,7 +30,7 @@ function woo_auto_update_cart_quantity_style() { ?>
 <?php }
 
 
-add_action( 'wp_head', 'woo_auto_update_cart_quantity_function' );
+add_action( 'wp_footer', 'woo_auto_update_cart_quantity_function' );
 function woo_auto_update_cart_quantity_function() { ?>
     <script>
         jQuery( function( $ ) {
